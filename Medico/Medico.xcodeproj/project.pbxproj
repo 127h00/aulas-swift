@@ -7,69 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FAE564A42CA48A980083E8C3 /* MedicoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE564A32CA48A980083E8C3 /* MedicoApp.swift */; };
-		FAE564A62CA48A980083E8C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE564A52CA48A980083E8C3 /* ContentView.swift */; };
-		FAE564A82CA48A990083E8C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE564A72CA48A990083E8C3 /* Assets.xcassets */; };
-		FAE564AB2CA48A990083E8C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE564AA2CA48A990083E8C3 /* Preview Assets.xcassets */; };
-		FAE564B52CA48A990083E8C3 /* MedicoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE564B42CA48A990083E8C3 /* MedicoTests.swift */; };
-		FAE564BF2CA48A990083E8C3 /* MedicoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE564BE2CA48A990083E8C3 /* MedicoUITests.swift */; };
-		FAE564C12CA48A990083E8C3 /* MedicoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE564C02CA48A990083E8C3 /* MedicoUITestsLaunchTests.swift */; };
-		FAE564CF2CA48B5E0083E8C3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE564CE2CA48B5E0083E8C3 /* HomeView.swift */; };
-		FAE564D12CA4907B0083E8C3 /* SpecialCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE564D02CA4907B0083E8C3 /* SpecialCardView.swift */; };
-		FAE564D32CA497470083E8C3 /* Specialist.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE564D22CA497470083E8C3 /* Specialist.swift */; };
-		FAE564D52CA49D1F0083E8C3 /* doctor.json in Resources */ = {isa = PBXBuildFile; fileRef = FAE564D42CA49D1F0083E8C3 /* doctor.json */; };
+		FC21458D2CA48A9800D222B1 /* MedicoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC21458C2CA48A9800D222B1 /* MedicoApp.swift */; };
+		FC21458F2CA48A9800D222B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC21458E2CA48A9800D222B1 /* ContentView.swift */; };
+		FC2145912CA48A9900D222B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC2145902CA48A9900D222B1 /* Assets.xcassets */; };
+		FC2145942CA48A9900D222B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC2145932CA48A9900D222B1 /* Preview Assets.xcassets */; };
+		FC21459B2CA48B1B00D222B1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC21459A2CA48B1B00D222B1 /* HomeView.swift */; };
+		FC21459F2CA4903500D222B1 /* SpecialistCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC21459E2CA4903500D222B1 /* SpecialistCardView.swift */; };
+		FC2145A12CA4970C00D222B1 /* Specialist.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2145A02CA4970C00D222B1 /* Specialist.swift */; };
+		FC2145A32CA49D1400D222B1 /* doctor.json in Resources */ = {isa = PBXBuildFile; fileRef = FC2145A22CA49D1400D222B1 /* doctor.json */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		FAE564B12CA48A990083E8C3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FAE564982CA48A980083E8C3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FAE5649F2CA48A980083E8C3;
-			remoteInfo = Medico;
-		};
-		FAE564BB2CA48A990083E8C3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FAE564982CA48A980083E8C3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FAE5649F2CA48A980083E8C3;
-			remoteInfo = Medico;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		FAE564A02CA48A980083E8C3 /* Medico.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Medico.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAE564A32CA48A980083E8C3 /* MedicoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicoApp.swift; sourceTree = "<group>"; };
-		FAE564A52CA48A980083E8C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		FAE564A72CA48A990083E8C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FAE564AA2CA48A990083E8C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FAE564B02CA48A990083E8C3 /* MedicoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedicoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAE564B42CA48A990083E8C3 /* MedicoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicoTests.swift; sourceTree = "<group>"; };
-		FAE564BA2CA48A990083E8C3 /* MedicoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedicoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAE564BE2CA48A990083E8C3 /* MedicoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicoUITests.swift; sourceTree = "<group>"; };
-		FAE564C02CA48A990083E8C3 /* MedicoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicoUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		FAE564CE2CA48B5E0083E8C3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		FAE564D02CA4907B0083E8C3 /* SpecialCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialCardView.swift; sourceTree = "<group>"; };
-		FAE564D22CA497470083E8C3 /* Specialist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Specialist.swift; sourceTree = "<group>"; };
-		FAE564D42CA49D1F0083E8C3 /* doctor.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = doctor.json; sourceTree = "<group>"; };
+		FC2145892CA48A9800D222B1 /* Medico.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Medico.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC21458C2CA48A9800D222B1 /* MedicoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicoApp.swift; sourceTree = "<group>"; };
+		FC21458E2CA48A9800D222B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FC2145902CA48A9900D222B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC2145932CA48A9900D222B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FC21459A2CA48B1B00D222B1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FC21459E2CA4903500D222B1 /* SpecialistCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialistCardView.swift; sourceTree = "<group>"; };
+		FC2145A02CA4970C00D222B1 /* Specialist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Specialist.swift; sourceTree = "<group>"; };
+		FC2145A22CA49D1400D222B1 /* doctor.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = doctor.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FAE5649D2CA48A980083E8C3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FAE564AD2CA48A990083E8C3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FAE564B72CA48A990083E8C3 /* Frameworks */ = {
+		FC2145862CA48A9800D222B1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -79,92 +40,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FAE564972CA48A980083E8C3 = {
+		FC2145802CA48A9800D222B1 = {
 			isa = PBXGroup;
 			children = (
-				FAE564A22CA48A980083E8C3 /* Medico */,
-				FAE564B32CA48A990083E8C3 /* MedicoTests */,
-				FAE564BD2CA48A990083E8C3 /* MedicoUITests */,
-				FAE564A12CA48A980083E8C3 /* Products */,
+				FC21458B2CA48A9800D222B1 /* Medico */,
+				FC21458A2CA48A9800D222B1 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FAE564A12CA48A980083E8C3 /* Products */ = {
+		FC21458A2CA48A9800D222B1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FAE564A02CA48A980083E8C3 /* Medico.app */,
-				FAE564B02CA48A990083E8C3 /* MedicoTests.xctest */,
-				FAE564BA2CA48A990083E8C3 /* MedicoUITests.xctest */,
+				FC2145892CA48A9800D222B1 /* Medico.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FAE564A22CA48A980083E8C3 /* Medico */ = {
+		FC21458B2CA48A9800D222B1 /* Medico */ = {
 			isa = PBXGroup;
 			children = (
-				FAE564A32CA48A980083E8C3 /* MedicoApp.swift */,
-				FAE564D72CA49E460083E8C3 /* model */,
-				FAE564D62CA49E010083E8C3 /* View */,
-				FAE564A72CA48A990083E8C3 /* Assets.xcassets */,
-				FAE564A92CA48A990083E8C3 /* Preview Content */,
+				FC21458C2CA48A9800D222B1 /* MedicoApp.swift */,
+				FC2145A42CA49DFD00D222B1 /* View */,
+				FC2145A52CA49E3400D222B1 /* Model */,
+				FC2145902CA48A9900D222B1 /* Assets.xcassets */,
+				FC2145922CA48A9900D222B1 /* Preview Content */,
 			);
 			path = Medico;
 			sourceTree = "<group>";
 		};
-		FAE564A92CA48A990083E8C3 /* Preview Content */ = {
+		FC2145922CA48A9900D222B1 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				FAE564AA2CA48A990083E8C3 /* Preview Assets.xcassets */,
+				FC2145932CA48A9900D222B1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		FAE564B32CA48A990083E8C3 /* MedicoTests */ = {
+		FC2145A42CA49DFD00D222B1 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				FAE564B42CA48A990083E8C3 /* MedicoTests.swift */,
-			);
-			path = MedicoTests;
-			sourceTree = "<group>";
-		};
-		FAE564BD2CA48A990083E8C3 /* MedicoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				FAE564BE2CA48A990083E8C3 /* MedicoUITests.swift */,
-				FAE564C02CA48A990083E8C3 /* MedicoUITestsLaunchTests.swift */,
-			);
-			path = MedicoUITests;
-			sourceTree = "<group>";
-		};
-		FAE564D62CA49E010083E8C3 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				FAE564CE2CA48B5E0083E8C3 /* HomeView.swift */,
-				FAE564A52CA48A980083E8C3 /* ContentView.swift */,
-				FAE564D02CA4907B0083E8C3 /* SpecialCardView.swift */,
+				FC21458E2CA48A9800D222B1 /* ContentView.swift */,
+				FC21459A2CA48B1B00D222B1 /* HomeView.swift */,
+				FC21459E2CA4903500D222B1 /* SpecialistCardView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		FAE564D72CA49E460083E8C3 /* model */ = {
+		FC2145A52CA49E3400D222B1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				FAE564D22CA497470083E8C3 /* Specialist.swift */,
-				FAE564D42CA49D1F0083E8C3 /* doctor.json */,
+				FC2145A02CA4970C00D222B1 /* Specialist.swift */,
+				FC2145A22CA49D1400D222B1 /* doctor.json */,
 			);
-			path = model;
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FAE5649F2CA48A980083E8C3 /* Medico */ = {
+		FC2145882CA48A9800D222B1 /* Medico */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FAE564C42CA48A990083E8C3 /* Build configuration list for PBXNativeTarget "Medico" */;
+			buildConfigurationList = FC2145972CA48A9900D222B1 /* Build configuration list for PBXNativeTarget "Medico" */;
 			buildPhases = (
-				FAE5649C2CA48A980083E8C3 /* Sources */,
-				FAE5649D2CA48A980083E8C3 /* Frameworks */,
-				FAE5649E2CA48A980083E8C3 /* Resources */,
+				FC2145852CA48A9800D222B1 /* Sources */,
+				FC2145862CA48A9800D222B1 /* Frameworks */,
+				FC2145872CA48A9800D222B1 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -172,69 +112,25 @@
 			);
 			name = Medico;
 			productName = Medico;
-			productReference = FAE564A02CA48A980083E8C3 /* Medico.app */;
+			productReference = FC2145892CA48A9800D222B1 /* Medico.app */;
 			productType = "com.apple.product-type.application";
-		};
-		FAE564AF2CA48A990083E8C3 /* MedicoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FAE564C72CA48A990083E8C3 /* Build configuration list for PBXNativeTarget "MedicoTests" */;
-			buildPhases = (
-				FAE564AC2CA48A990083E8C3 /* Sources */,
-				FAE564AD2CA48A990083E8C3 /* Frameworks */,
-				FAE564AE2CA48A990083E8C3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FAE564B22CA48A990083E8C3 /* PBXTargetDependency */,
-			);
-			name = MedicoTests;
-			productName = MedicoTests;
-			productReference = FAE564B02CA48A990083E8C3 /* MedicoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		FAE564B92CA48A990083E8C3 /* MedicoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FAE564CA2CA48A990083E8C3 /* Build configuration list for PBXNativeTarget "MedicoUITests" */;
-			buildPhases = (
-				FAE564B62CA48A990083E8C3 /* Sources */,
-				FAE564B72CA48A990083E8C3 /* Frameworks */,
-				FAE564B82CA48A990083E8C3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FAE564BC2CA48A990083E8C3 /* PBXTargetDependency */,
-			);
-			name = MedicoUITests;
-			productName = MedicoUITests;
-			productReference = FAE564BA2CA48A990083E8C3 /* MedicoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FAE564982CA48A980083E8C3 /* Project object */ = {
+		FC2145812CA48A9800D222B1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
-					FAE5649F2CA48A980083E8C3 = {
+					FC2145882CA48A9800D222B1 = {
 						CreatedOnToolsVersion = 15.2;
-					};
-					FAE564AF2CA48A990083E8C3 = {
-						CreatedOnToolsVersion = 15.2;
-						TestTargetID = FAE5649F2CA48A980083E8C3;
-					};
-					FAE564B92CA48A990083E8C3 = {
-						CreatedOnToolsVersion = 15.2;
-						TestTargetID = FAE5649F2CA48A980083E8C3;
 					};
 				};
 			};
-			buildConfigurationList = FAE5649B2CA48A980083E8C3 /* Build configuration list for PBXProject "Medico" */;
+			buildConfigurationList = FC2145842CA48A9800D222B1 /* Build configuration list for PBXProject "Medico" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -242,92 +138,46 @@
 				en,
 				Base,
 			);
-			mainGroup = FAE564972CA48A980083E8C3;
-			productRefGroup = FAE564A12CA48A980083E8C3 /* Products */;
+			mainGroup = FC2145802CA48A9800D222B1;
+			productRefGroup = FC21458A2CA48A9800D222B1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FAE5649F2CA48A980083E8C3 /* Medico */,
-				FAE564AF2CA48A990083E8C3 /* MedicoTests */,
-				FAE564B92CA48A990083E8C3 /* MedicoUITests */,
+				FC2145882CA48A9800D222B1 /* Medico */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FAE5649E2CA48A980083E8C3 /* Resources */ = {
+		FC2145872CA48A9800D222B1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAE564D52CA49D1F0083E8C3 /* doctor.json in Resources */,
-				FAE564AB2CA48A990083E8C3 /* Preview Assets.xcassets in Resources */,
-				FAE564A82CA48A990083E8C3 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FAE564AE2CA48A990083E8C3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FAE564B82CA48A990083E8C3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				FC2145A32CA49D1400D222B1 /* doctor.json in Resources */,
+				FC2145942CA48A9900D222B1 /* Preview Assets.xcassets in Resources */,
+				FC2145912CA48A9900D222B1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FAE5649C2CA48A980083E8C3 /* Sources */ = {
+		FC2145852CA48A9800D222B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAE564CF2CA48B5E0083E8C3 /* HomeView.swift in Sources */,
-				FAE564A62CA48A980083E8C3 /* ContentView.swift in Sources */,
-				FAE564D12CA4907B0083E8C3 /* SpecialCardView.swift in Sources */,
-				FAE564D32CA497470083E8C3 /* Specialist.swift in Sources */,
-				FAE564A42CA48A980083E8C3 /* MedicoApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FAE564AC2CA48A990083E8C3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FAE564B52CA48A990083E8C3 /* MedicoTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FAE564B62CA48A990083E8C3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FAE564BF2CA48A990083E8C3 /* MedicoUITests.swift in Sources */,
-				FAE564C12CA48A990083E8C3 /* MedicoUITestsLaunchTests.swift in Sources */,
+				FC21459B2CA48B1B00D222B1 /* HomeView.swift in Sources */,
+				FC21459F2CA4903500D222B1 /* SpecialistCardView.swift in Sources */,
+				FC21458F2CA48A9800D222B1 /* ContentView.swift in Sources */,
+				FC2145A12CA4970C00D222B1 /* Specialist.swift in Sources */,
+				FC21458D2CA48A9800D222B1 /* MedicoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		FAE564B22CA48A990083E8C3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FAE5649F2CA48A980083E8C3 /* Medico */;
-			targetProxy = FAE564B12CA48A990083E8C3 /* PBXContainerItemProxy */;
-		};
-		FAE564BC2CA48A990083E8C3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FAE5649F2CA48A980083E8C3 /* Medico */;
-			targetProxy = FAE564BB2CA48A990083E8C3 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		FAE564C22CA48A990083E8C3 /* Debug */ = {
+		FC2145952CA48A9900D222B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -390,7 +240,7 @@
 			};
 			name = Debug;
 		};
-		FAE564C32CA48A990083E8C3 /* Release */ = {
+		FC2145962CA48A9900D222B1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -446,7 +296,7 @@
 			};
 			name = Release;
 		};
-		FAE564C52CA48A990083E8C3 /* Debug */ = {
+		FC2145982CA48A9900D222B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -466,7 +316,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ac.Medico;
+				PRODUCT_BUNDLE_IDENTIFIER = Cotuca.Medico;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -474,7 +324,7 @@
 			};
 			name = Debug;
 		};
-		FAE564C62CA48A990083E8C3 /* Release */ = {
+		FC2145992CA48A9900D222B1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -494,126 +344,36 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ac.Medico;
+				PRODUCT_BUNDLE_IDENTIFIER = Cotuca.Medico;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		FAE564C82CA48A990083E8C3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ac.MedicoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Medico.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Medico";
-			};
-			name = Debug;
-		};
-		FAE564C92CA48A990083E8C3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ac.MedicoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Medico.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Medico";
-			};
-			name = Release;
-		};
-		FAE564CB2CA48A990083E8C3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ac.MedicoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Medico;
-			};
-			name = Debug;
-		};
-		FAE564CC2CA48A990083E8C3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ac.MedicoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Medico;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FAE5649B2CA48A980083E8C3 /* Build configuration list for PBXProject "Medico" */ = {
+		FC2145842CA48A9800D222B1 /* Build configuration list for PBXProject "Medico" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FAE564C22CA48A990083E8C3 /* Debug */,
-				FAE564C32CA48A990083E8C3 /* Release */,
+				FC2145952CA48A9900D222B1 /* Debug */,
+				FC2145962CA48A9900D222B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FAE564C42CA48A990083E8C3 /* Build configuration list for PBXNativeTarget "Medico" */ = {
+		FC2145972CA48A9900D222B1 /* Build configuration list for PBXNativeTarget "Medico" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FAE564C52CA48A990083E8C3 /* Debug */,
-				FAE564C62CA48A990083E8C3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FAE564C72CA48A990083E8C3 /* Build configuration list for PBXNativeTarget "MedicoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FAE564C82CA48A990083E8C3 /* Debug */,
-				FAE564C92CA48A990083E8C3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FAE564CA2CA48A990083E8C3 /* Build configuration list for PBXNativeTarget "MedicoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FAE564CB2CA48A990083E8C3 /* Debug */,
-				FAE564CC2CA48A990083E8C3 /* Release */,
+				FC2145982CA48A9900D222B1 /* Debug */,
+				FC2145992CA48A9900D222B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FAE564982CA48A980083E8C3 /* Project object */;
+	rootObject = FC2145812CA48A9800D222B1 /* Project object */;
 }

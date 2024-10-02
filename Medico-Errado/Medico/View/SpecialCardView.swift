@@ -25,13 +25,13 @@ struct SpecialCardView: View {
                     Text(specialist.name)
                         .font(.title3)
                         .bold()
+                    Text(specialist.specialty)
                 }
             }
-            Text(specialist.specialty)
         }
     }
 }
 
 #Preview {
-    SpecialCardView()
+    SpecialCardView(specialist: Specialist(id:"1", name:"Dr. João", crm:"1234567", imageUrl:"URL", specialty:"Neurologista", email:"joao@gmail.com", phoneNumber:"19 999998876"))
 }

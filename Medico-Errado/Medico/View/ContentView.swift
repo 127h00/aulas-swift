@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  Medico
 //
-//  Created by Simone Pierini Facini Rocha on 25/09/24.
+//  Created by ANNA CLARA FERRAZ on 25/09/24.
 //
 
 import SwiftUI

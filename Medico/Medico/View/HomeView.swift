@@ -2,43 +2,45 @@
 //  HomeView.swift
 //  Medico
 //
-//  Created by ANNA CLARA FERRAZ on 25/09/24.
+//  Created by Simone Pierini Facini Rocha on 25/09/24.
 //
 
 import SwiftUI
 
 struct HomeView: View {
     var body: some View {
+        
         ScrollView(showsIndicators: false){
+            
             VStack{
-                Image(systemName: "house")
+                
+                Image(systemName: "globe")
                     .resizable()
                     .scaledToFit()
-                    .frame(width: 200)
+                    .frame(width:200)
                     .padding(.vertical, 32)
                 
                 Text("Boas-vindas!")
-                    .font(.title)
-                    .bold()
-                    .foregroundColor(.gray)
-                
-                Text("Visual")
                     .font(.title2)
                     .bold()
                     .foregroundColor(Color(.lightGray))
-                    .multilineTextAlignment(.center)
-                    .padding(.bottom, 8)
                 
+                Text("Lista de médicos:")
+                    .font(.title3)
+                    .bold()
+                    .foregroundColor(.accentColor)
+                    .multilineTextAlignment(.center)
+                    .padding(.bottom,8)
                 ForEach(specialists) { specialist in
-                    SpecialistCardView(specialists:specialist)
-                        .padding(.bottom, 8)
+                    SpecialistCardView(specialist: specialist)
+                        .padding(.bottom,8)
                 }
                 
-            }
+            }//fecha VStack
             .padding(.horizontal)
-        }
-        .top
-    }
+        }//Fecha ScrollView
+        .padding(.top)
+    }//Fecha View
 }
 
 #Preview {
