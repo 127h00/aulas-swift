@@ -50,5 +50,5 @@ struct albumCard: View {
 }
 
 #Preview {
-    albumCard(album:album4) // teste
+    albumCard(album:album2) // teste
 }

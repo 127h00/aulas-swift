@@ -21,19 +21,25 @@ struct SpecialistCardView: View {
                     .frame(width: 64, height: 64)
                     .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
                 
-                VStack(alignment: .leading, spacing:8.0){
+                VStack(alignment: .leading, spacing:0){
                     Text(specialist.name)
-                        .font(.title3)
+                        .font(.title2)
                         .bold()
                     Text(specialist.specialty)
+                        .font(.title3)
                 }
             }
+            ButtonView(text:"Agendar consulta")
         }
+        .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: .leading)
+        .padding(30)
+        .background(Color(.lightGray).opacity(0.20))
+        .cornerRadius(20)
+        
     }
 }
 
 #Preview {
-    ButtonView(text: "Agendar consulta")
     SpecialistCardView(specialist:
         Specialist(id:"1",
                    name:"Dr. João",
