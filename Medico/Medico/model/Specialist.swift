@@ -21,7 +21,7 @@ struct Specialist: Identifiable, Codable {
         case id
         case name = "nome"
         case crm
-        case imageUrl = "image"
+        case imageUrl = "imagem"
         case specialty = "especialidade"
         case email
         case phoneNumber = "telefone"

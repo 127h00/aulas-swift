@@ -80,8 +80,8 @@
 		FC21458B2CA48A9800D222B1 /* Medico */ = {
 			isa = PBXGroup;
 			children = (
-				FA0F73D32CB7034A00A91095 /* Service */,
 				FC21458C2CA48A9800D222B1 /* MedicoApp.swift */,
+				FA0F73D32CB7034A00A91095 /* Service */,
 				FC2145A42CA49DFD00D222B1 /* View */,
 				FC2145A52CA49E3400D222B1 /* Model */,
 				FC2145902CA48A9900D222B1 /* Assets.xcassets */,

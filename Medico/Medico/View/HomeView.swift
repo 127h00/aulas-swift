@@ -8,16 +8,33 @@
 import SwiftUI
 
 struct HomeView: View {
+    
+    // instancia a struct WebService()
+    let service = WebService()
+    
+    // cria um vetor de specialist para atualizar a tela homeview
+    @State private var specialists: [Specialist] = []
+    
+    func getSpecialists() async {
+        do {
+            if let specialists = try await service.getAllSpecialists(){
+                self.specialists = specialists
+            }
+        } catch {
+            print("Ocorreu um erro ao obter os dados dos médicos: \(error)")
+        }
+    }
+    
     var body: some View {
         
         ScrollView(showsIndicators: false){
             
             VStack{
                 
-                Image(systemName: "globe")
+                Image(systemName: "stethoscope")
                     .resizable()
                     .scaledToFit()
-                    .frame(width:200)
+                    .frame(width:80)
                     .padding(.vertical, 32)
                 
                 Text("Boas-vindas!")
@@ -40,6 +57,12 @@ struct HomeView: View {
             .padding(.horizontal)
         }//Fecha ScrollView
         .padding(.top)
+        
+        .onAppear(){
+            Task{
+                await getSpecialists()
+            }
+        }
     }//Fecha View
 }
 
