@@ -15,6 +15,25 @@ struct WebService{
     
     let baseURL = "http://localhost:3000"
     
+    func scheduleAppointment(specialistID:String, patientID:String, date:String) async throws -> ScheduleAppointmentResponse? {
+        let endpoint = baseURL + "/consulta"
+        guard let url = URL(string: endpoint) else {
+            return nil
+        }
+        //dados
+        let appointment = ScheduleAppointmentRequest(specialist: specialistID, patient: patientID, date: date)
+        
+        //transforma appointment para json
+        let jsonData = try JSONEncoder().encode(appointment)
+        
+        //classe URLRequest do swift passando a url
+        var request = URLRequest(url: url)
+        
+        request.httpMethod = "POST"
+        
+        request.setValue("application/json", forHTTPHeaderField: "Content-type")
+    }
+    
     func downloadImage(from imageURL:String) async throws -> UIImage? {
         guard let url = URL(string: imageURL) else {
             print("Erro na URL!")

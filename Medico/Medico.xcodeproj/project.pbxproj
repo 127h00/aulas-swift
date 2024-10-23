@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		FA0F73D12CB6F68D00A91095 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0F73D02CB6F68D00A91095 /* ButtonView.swift */; };
 		FA0F73D52CB7042700A91095 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0F73D42CB7042700A91095 /* WebService.swift */; };
+		FA104DA52CC96C8900AC7DA2 /* ScheduleAppointmentVieew.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA104DA42CC96C8900AC7DA2 /* ScheduleAppointmentVieew.swift */; };
+		FA104DA82CC9720900AC7DA2 /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA104DA72CC9720900AC7DA2 /* Date+.swift */; };
+		FA104DAA2CC9782C00AC7DA2 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA104DA92CC9782C00AC7DA2 /* String+.swift */; };
+		FA104DAC2CC981C800AC7DA2 /* ScheduleAppointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA104DAB2CC981C800AC7DA2 /* ScheduleAppointment.swift */; };
 		FC21458D2CA48A9800D222B1 /* MedicoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC21458C2CA48A9800D222B1 /* MedicoApp.swift */; };
 		FC21458F2CA48A9800D222B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC21458E2CA48A9800D222B1 /* ContentView.swift */; };
 		FC2145912CA48A9900D222B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC2145902CA48A9900D222B1 /* Assets.xcassets */; };
@@ -22,6 +26,10 @@
 /* Begin PBXFileReference section */
 		FA0F73D02CB6F68D00A91095 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		FA0F73D42CB7042700A91095 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		FA104DA42CC96C8900AC7DA2 /* ScheduleAppointmentVieew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleAppointmentVieew.swift; sourceTree = "<group>"; };
+		FA104DA72CC9720900AC7DA2 /* Date+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+.swift"; sourceTree = "<group>"; };
+		FA104DA92CC9782C00AC7DA2 /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
+		FA104DAB2CC981C800AC7DA2 /* ScheduleAppointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleAppointment.swift; sourceTree = "<group>"; };
 		FC2145892CA48A9800D222B1 /* Medico.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Medico.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC21458C2CA48A9800D222B1 /* MedicoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicoApp.swift; sourceTree = "<group>"; };
 		FC21458E2CA48A9800D222B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +57,7 @@
 			children = (
 				FC21459E2CA4903500D222B1 /* SpecialistCardView.swift */,
 				FA0F73D02CB6F68D00A91095 /* ButtonView.swift */,
+				FA104DA42CC96C8900AC7DA2 /* ScheduleAppointmentVieew.swift */,
 			);
 			path = component;
 			sourceTree = "<group>";
@@ -59,6 +68,15 @@
 				FA0F73D42CB7042700A91095 /* WebService.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		FA104DA62CC971C400AC7DA2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FA104DA72CC9720900AC7DA2 /* Date+.swift */,
+				FA104DA92CC9782C00AC7DA2 /* String+.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		FC2145802CA48A9800D222B1 = {
@@ -84,6 +102,7 @@
 				FA0F73D32CB7034A00A91095 /* Service */,
 				FC2145A42CA49DFD00D222B1 /* View */,
 				FC2145A52CA49E3400D222B1 /* Model */,
+				FA104DA62CC971C400AC7DA2 /* Extensions */,
 				FC2145902CA48A9900D222B1 /* Assets.xcassets */,
 				FC2145922CA48A9900D222B1 /* Preview Content */,
 			);
@@ -113,6 +132,7 @@
 			children = (
 				FC2145A02CA4970C00D222B1 /* Specialist.swift */,
 				FC2145A22CA49D1400D222B1 /* doctor.json */,
+				FA104DAB2CC981C800AC7DA2 /* ScheduleAppointment.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -188,11 +208,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA104DA82CC9720900AC7DA2 /* Date+.swift in Sources */,
+				FA104DAC2CC981C800AC7DA2 /* ScheduleAppointment.swift in Sources */,
 				FC21459B2CA48B1B00D222B1 /* HomeView.swift in Sources */,
+				FA104DAA2CC9782C00AC7DA2 /* String+.swift in Sources */,
 				FC21459F2CA4903500D222B1 /* SpecialistCardView.swift in Sources */,
 				FA0F73D52CB7042700A91095 /* WebService.swift in Sources */,
 				FA0F73D12CB6F68D00A91095 /* ButtonView.swift in Sources */,
 				FC21458F2CA48A9800D222B1 /* ContentView.swift in Sources */,
+				FA104DA52CC96C8900AC7DA2 /* ScheduleAppointmentVieew.swift in Sources */,
 				FC2145A12CA4970C00D222B1 /* Specialist.swift in Sources */,
 				FC21458D2CA48A9800D222B1 /* MedicoApp.swift in Sources */,
 			);

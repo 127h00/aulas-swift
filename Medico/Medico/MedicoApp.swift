@@ -11,8 +11,9 @@ import SwiftUI
 struct MedicoApp: App {
     var body: some Scene {
         WindowGroup {
-            //colocar HomeView()
-            HomeView()
+            NavigationStack{
+                HomeView()
+            }
         }
     }
 }
